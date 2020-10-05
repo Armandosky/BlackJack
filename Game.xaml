@@ -1,0 +1,27 @@
+﻿<Page x:Class="Informe1.Game"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Informe1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Game">
+
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="420" Margin="0,4,0,0" Stroke="Black" VerticalAlignment="Top" Width="790">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/images.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Name="txtPlayer" HorizontalAlignment="Left" Height="124" Margin="92,232,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" Background="#FFDDDDDD"/>
+        <Button Name="btn_Card" Content="Card" HorizontalAlignment="Left" Height="47" Margin="56,129,0,0" VerticalAlignment="Top" Width="72" Click="btn_Card_Click"/>
+        <Button Name="btn_Stop" Content="Stop" HorizontalAlignment="Left" Height="44" Margin="160,130,0,0" VerticalAlignment="Top" Width="72" Click="btn_Stop_Click"/>
+        <Label Content="BLACKJACK" HorizontalAlignment="Left" Margin="278,24,0,0" VerticalAlignment="Top" Background="{x:Null}" Height="70" Width="267" FontSize="40" FontWeight="Bold" Foreground="Black"/>
+        <TextBlock Name="txtDealer" HorizontalAlignment="Left" Height="124" Margin="546,232,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Background="#FFDDDDDD"/>
+        <Label Name="lblPlayerScore" Content="" HorizontalAlignment="Left" Margin="300,276,0,0" VerticalAlignment="Top" Height="32" Width="58" Background="#FFF39090" RenderTransformOrigin="0.469,0.534"/>
+        <Label Name="lblDealerScore" Content="" HorizontalAlignment="Left" Margin="412,276,0,0" VerticalAlignment="Top" Background="#FFF39090" Height="32" Width="56"/>
+        <Button Name="btn_reset" Content="Reset" HorizontalAlignment="Left" Height="44" Margin="560,132,0,0" VerticalAlignment="Top" Width="86" Click="btn_reset_Click"/>
+
+    </Grid>
+</Page>
