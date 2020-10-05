@@ -9,19 +9,19 @@
       Title="Game">
 
     <Grid Margin="0,0,0,48">
-        <Rectangle HorizontalAlignment="Left" Margin="0,4,0,-82" Stroke="Black" Width="790">
+        <Rectangle HorizontalAlignment="Left" Margin="-3,0,0,-48" Stroke="Black" Width="790">
             <Rectangle.Fill>
                 <ImageBrush ImageSource="/Xd.jpg"/>
             </Rectangle.Fill>
         </Rectangle>
-        <TextBlock Name="txtPlayer" HorizontalAlignment="Left" Height="124" Margin="92,232,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" Background="#FF216E10"/>
-        <Button Name="btn_Card" Content="Card" HorizontalAlignment="Left" Height="47" Margin="56,129,0,0" VerticalAlignment="Top" Width="72" Click="btn_Card_Click"/>
-        <Button Name="btn_Stop" Content="Stop" HorizontalAlignment="Left" Height="44" Margin="160,130,0,0" VerticalAlignment="Top" Width="72" Click="btn_Stop_Click"/>
-        <Label Content="BLACKJACK" HorizontalAlignment="Left" Margin="277,23,0,0" VerticalAlignment="Top" Background="{x:Null}" Height="70" Width="236" FontSize="40" FontWeight="Bold" Foreground="#FFFF0202"/>
-        <TextBlock Name="txtDealer" HorizontalAlignment="Left" Height="124" Margin="546,232,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Background="#FF216E10"/>
-        <Label Name="lblPlayerScore" Content="" HorizontalAlignment="Left" Margin="300,276,0,0" VerticalAlignment="Top" Height="32" Width="58" Background="#FFC13131" RenderTransformOrigin="0.469,0.534"/>
-        <Label Name="lblDealerScore" Content="" HorizontalAlignment="Left" Margin="412,276,0,0" VerticalAlignment="Top" Background="#FFC13131" Height="32" Width="56"/>
-        <Button Name="btn_reset" Content="Reset" HorizontalAlignment="Left" Height="44" Margin="560,132,0,0" VerticalAlignment="Top" Width="86" Click="btn_reset_Click"/>
+        <TextBlock Name="txtPlayer" HorizontalAlignment="Left" Height="124" Margin="89,134,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="117" Background="#FF07A400" FontWeight="Bold" FontSize="16" Foreground="White" TextAlignment="Center"/>
+        <Button Name="btn_Card" Content="Card" HorizontalAlignment="Left" Height="44" Margin="170,352,0,0" VerticalAlignment="Top" Width="86" Click="btn_Card_Click" FontSize="18" FontWeight="Normal" FontStyle="Normal"/>
+        <Button Name="btn_Stop" Content="Stop" HorizontalAlignment="Center" Height="44" Margin="0,352,0,0" VerticalAlignment="Top" Width="86" Click="btn_Stop_Click" FontSize="18" FontWeight="Normal"/>
+        <Label Content="BLACKJACK" HorizontalAlignment="Left" Margin="274,6,0,0" VerticalAlignment="Top" Background="{x:Null}" Height="70" Width="236" FontSize="40" FontWeight="Bold" Foreground="#FFFF0202"/>
+        <TextBlock Name="txtDealer" HorizontalAlignment="Left" Height="124" Margin="587,134,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Background="#FF07A400" Foreground="#FFFFFDFD" FontSize="16" FontWeight="Bold" TextAlignment="Center"/>
+        <Label Name="lblPlayerScore" Content="" HorizontalAlignment="Left" Margin="274,178,0,0" VerticalAlignment="Top" Height="32" Width="78" Background="Red" RenderTransformOrigin="0.469,0.534" Foreground="White" FontWeight="Bold" FontSize="16" FontFamily="Arial Black"/>
+        <Label Name="lblDealerScore" Content="" HorizontalAlignment="Left" Margin="432,178,0,0" VerticalAlignment="Top" Background="Red" Height="32" Width="78" FontFamily="Arial Black" FontWeight="Bold" FontSize="16" Foreground="White"/>
+        <Button Name="btn_reset" Content="Reset" HorizontalAlignment="Left" Height="44" Margin="544,352,0,0" VerticalAlignment="Top" Width="86" Click="btn_reset_Click" FontSize="18" FontWeight="Normal"/>
 
     </Grid>
 </Page>
