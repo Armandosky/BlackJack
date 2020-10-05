@@ -5,22 +5,22 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Informe1"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="470" d:DesignWidth="800"
       Title="Page1">
 
     <Grid>
 
-        <Button Content="Play" Margin="321,326,321,68" Click="Button_Click" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="#FFB9A106" Foreground="White">
+        <Button Content="Play" Margin="0,345,52,49" Click="Button_Click" FontWeight="Bold" FontStyle="Italic" FontSize="24" BorderBrush="#FFB9A106" Foreground="White" HorizontalAlignment="Right" Width="158">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
-                    <GradientStop Color="#FFE0C58F" Offset="1"/>
+                    <GradientStop Color="#FF707070" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
 
         <Grid.Background>
-            <ImageBrush ImageSource="/images (1).jpg"/>
+            <ImageBrush ImageSource="/YjS7I5.jpg"/>
         </Grid.Background>
     </Grid>
 </Page>

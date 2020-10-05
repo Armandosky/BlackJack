@@ -106,26 +106,28 @@ namespace Informe1
                 btn_Stop.IsEnabled = false;
                 MessageBox.Show("Player Win");
             }
-
-            if (handValue > DealerValue && handValue <= 21)
-            {
-                btn_Card.IsEnabled = false;
-                btn_Stop.IsEnabled = false;
-                MessageBox.Show("Player Win");
-            }
             else
             {
-                if (handValue == DealerValue)
+                if (handValue > DealerValue && handValue <= 21)
                 {
                     btn_Card.IsEnabled = false;
                     btn_Stop.IsEnabled = false;
-                    MessageBox.Show("Tie");
+                    MessageBox.Show("Player Win");
                 }
                 else
                 {
-                    btn_Card.IsEnabled = false;
-                    btn_Stop.IsEnabled = false;
-                    MessageBox.Show("Dealer Win");
+                    if (handValue == DealerValue)
+                    {
+                        btn_Card.IsEnabled = false;
+                        btn_Stop.IsEnabled = false;
+                        MessageBox.Show("Tie");
+                    }
+                    else
+                    {
+                        btn_Card.IsEnabled = false;
+                        btn_Stop.IsEnabled = false;
+                        MessageBox.Show("Dealer Win");
+                    }
                 }
             }
         }

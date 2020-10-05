@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Informe1"
         mc:Ignorable="d"
-        Title="Inicio" Height="450" Width="800">
+        Title="Inicio" Height="480" Width="800">
     <Grid Loaded="Grid_Loaded">
-        <Frame Name="frameMain" Content="" HorizontalAlignment="Left" Height="450" Margin="-3,-4,0,0" VerticalAlignment="Top" Width="800"/>
+        <Frame Name="frameMain" Content="" HorizontalAlignment="Left" Height="450" Margin="-3,-4,0,0" VerticalAlignment="Top" Width="800" NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Window>
